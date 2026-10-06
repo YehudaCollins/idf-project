@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+backend/.env
+*.log
+.DS_Store
+frontend/node_modules/.vite
+frontend/tsconfig.tsbuildinfo
+.next/

@@ -1,0 +1,19 @@
+{
+  "name": "unitree-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/seed/runSeed.js",
+    "test": "node --test src/modules/ai/alpha/client.test.js"
+  },
+  "dependencies": {
+    "activedirectory2": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "openai": "^6.42.0"
+  }
+}
